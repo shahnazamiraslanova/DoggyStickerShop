@@ -1,0 +1,167 @@
+#detail .container{
+    padding-top: 70px;
+    
+}
+.detailCard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.detailImg {
+    width: 40%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.noWrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+}
+
+.detailImg>img {
+    width: 100%;
+    height: 450px;
+}
+
+.noWrap img {
+    width: 30%;
+}
+
+.detailCard{
+    padding: 5rem 0;
+}
+.detailArticle{
+    width: 30%;
+   
+}
+
+.detailArticle a{
+    color: rgba(91,33,182);
+    padding: 10px 15px;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid rgba(91,33,182);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.detailArticleBody h1 {
+    padding: 1em 0;
+    color: rgba(91, 33, 182);
+    font-weight: 800;
+}
+.detailArticleBody p{
+    font-size: 20px;
+
+}
+.detailArticleBody span{
+    color: rgba(91, 33, 182);
+    font-size: 2em;
+    font-weight: 800;
+    display: inline-block;
+    padding: 1em 0;
+}
+.detailArticleBody form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+.detailFormItem{
+    display: flex;
+    flex-direction: column;
+}
+.detailFormItem:last-child{
+    width: 70%;
+}
+.detailFormItem label{
+   color:  rgba(107, 114, 128);
+   margin-bottom: 10px
+
+}
+.detailFormItem input{
+    color: rgba(17, 24, 39);
+    padding: 10px 15px;
+    width: 70px;
+    font-size: 20px;
+    border: none;
+    outline: 1px solid rgba(59,130,246,0.5);
+    border-radius: 5px;
+}
+
+.detailFormItem select{
+    width: 100%;
+    color: rgba(17, 24, 39);
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    outline: 1px solid rgba(59,130,246,0.5);
+    border-radius: 5px;
+}
+.detailArticleBody  button{
+    width: 100%;
+    color: white;
+    background-color:rgb(76,29,149) ;
+    margin-top: 50px;
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.detailArticleBody  button:hover{
+    color: rgb(76,29,149);
+    background-color: white;
+    border: 1px solid rgb(76,29,149);
+}
+@media (max-width: 1237px) {
+    .detailImg {
+        width: 60%;
+    }
+    .detailArticle{
+        width: 60%;
+       
+    }
+
+}
+
+@media (max-width: 955px) {
+    .detailImg {
+        width: 70%;
+    }
+    .detailArticle{
+        width: 70%;
+       
+    }
+}
+
+@media (max-width: 650px) {
+    .detailImg {
+        width: 80%;
+    }
+    .detailArticle{
+        width: 80%;
+       
+    }
+}
+
+@media (max-width: 450px) {
+    .detailImg {
+        width: 100%;
+    }
+    .detailArticle{
+        width: 100%;
+       
+    }
+
+   
+}
+

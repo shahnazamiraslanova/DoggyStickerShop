@@ -1,0 +1,148 @@
+#cart .container{
+    padding: 70px 0;
+
+}
+.cartBody{
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+}
+.cartBodyTitle{
+    padding: 20px 0;
+    color: rgba(91, 33, 182);
+    font-weight: 800;
+}
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+th, td {
+  padding: 16px;
+  text-align: left;
+}
+
+th {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ddd;
+  color: #007bff;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+td img {
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+td a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+td input[type="number"] {
+  width: 60px;
+  padding:10px 6px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+}
+
+td button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color:#007bff;
+  font-size: 25px;
+}
+
+td button:hover {
+  color: #cc0000;
+}
+
+@media (max-width: 1000px) {
+  thead {
+    display: none;
+  }
+
+  tbody tr {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  tbody td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+
+  tbody td img {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  tbody td a {
+    margin-left: 0;
+  }
+  .cartBodyTitle {
+    padding: 40px 0;}
+}
+
+.cartFoot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkOutBtn{
+  width: 50%;
+  padding: 10px 0;
+  background-color: transparent;
+  border: 1px solid #007bff ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+.checkOutBtn button{
+  color: #007bff;
+  font-size: 18px;
+
+
+}
+.checkOutBtn:hover{
+  background-color: #007bff;
+
+}
+.checkOutBtn:hover button{
+  color: white;
+
+
+}
